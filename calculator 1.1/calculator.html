@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body class="body">
+
+    <!-- Calculator -->
+    <div class="container my-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Simple Calculator</h5>
+                        <hr class="hr">
+                        <p class="card-text">Give it a try!</p>
+                        <!-- Input -->
+
+                        <input class="form-control mb-3" type="text" id="formControlDefault" onchange="calculate(this.value)">
+                        <div class="form-outline">
+
+                            <input type="text" id="formControlDefault" class="form-control" />
+
+                            <label class="form-label" for="formControlDefault"></label>
+                            <label class="form-label" for="formControlDefault"><span id="result">Result</span></label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary mx-5 mb-4">Enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Calculator-->
+
+    Simple Calculator
+    <input class="input" type="text" onchange="calculate(this.value)">
+    <div>
+        Result
+        <span id="result">3</span>
+    </div>
+
+<!--MDN Script -->
+    <script src="mdb.min.js"></script>
+    <!-- End MDN Script -->
+    <!-- Script for Calculator -->
+    <script src="calculator.js"></script>
+    <script src="main.js"></script>
+    <!-- End Script for Calculator -->
+
+</body></html>
