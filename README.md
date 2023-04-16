@@ -7,12 +7,12 @@
 <details>
 <summary>Course Curriculum</summary>
 
-Getting Started 
+Getting Started:    100% Completed
 
-Unit 2: HTML
+Unit 2: HTML        100% Completed
 
-Unit 3: CSS
+Unit 3: CSS         100% Completed
 
-Unit 4: JavaScript
+Unit 4: JavaScript  51% Completed
 
 </details>
