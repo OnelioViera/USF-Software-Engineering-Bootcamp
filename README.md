@@ -7,7 +7,7 @@
 <details>
 <summary>Course Curriculum</summary>
 
-Getting Started:    100% Completed
+Unit 1: Getting Started:    100% Completed
 
 Unit 2: HTML        100% Completed
 
